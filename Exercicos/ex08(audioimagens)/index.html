@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>imagens dinamicas</title>
+</head>
+<body>
+    <h1>Olha como a iamgem muda &#x1F60E;</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio consequuntur sunt similique voluptate quis cum excepturi iusto tempore, cumque nemo aspernatur qui amet magnam asperiores dolorem eaque minus a tenetur.</p>
+
+    <picture>
+        <source media="(max-width: 750px )" srcset="pg1/img1.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="pg1/img2.png" type="image/png">
+        <img src="pg1/img3.png" alt="imagem flexivel"></picture>
+
+        <h1>Reprodução de audio</h1>
+        <p>reproduza o audio</p>
+
+        <audio preload="metadata" autoplay controls loop>
+
+            <source src="The Moon Drops - Nathan Moore.mp3" type="audio/mpeg">
+            <source src="The Moon Drops - Nathan Moore.ogg" type="audio/ogg">
+            <source src="The Moon Drops - Nathan Moore.wav" type="audio/wav">
+
+           
+
+        </audio>
+       
+        <p><a href="The Moon Drops - Nathan Moore.mp3" download="The Moon Drops - Nathan Moore.mp3" type="audio/wav">Dwonload do audio </a></p>
+    
+</body>
+</html>
