@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+       
+    }
+
+    table{
+        width: 400px;
+        height: 400px;
+        border-collapse: collapse;
+        
+    }
+
+    td{
+        border: 1px solid black;
+        padding: 8px;
+        text-align: center;
+        vertical-align:middle;
+    }
+
+    .numero{
+        text-align: right;
+    }
+</style>
+<body>
+    <h1>Exercico 01 de tabela</h1>
+    <!--
+        Hierarquia de tabelas (simples)
+        table= tabela
+        table rows = linha de tabela
+        table header= cabeçalho de tabela
+        table data= dado de tabela
+
+        -----------------
+        alinhamento vertical/horizontal
+        vertical: vertical-aling(Obs a função middle centraliza)
+        horizontal: text-aling
+    -->
+    <table>
+        <tr> <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+        </tr>
+
+        <tr><td>A2</td>
+            <td>B2</td>
+            <td class="numero">C2</td>
+        </tr>
+
+        <tr>
+            <td>A3</td>
+            <td>B3</td>
+            <td class="numero">C3</td>
+        </tr>
+        <tr></tr>
+        
+    </table>
+</body>
+</html>
