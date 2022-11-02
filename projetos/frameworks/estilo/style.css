@@ -16,8 +16,8 @@
 }
 
 body{
-background-color: var(--cor02);
-background-image: linear-gradient(to bottom, var(--cor03), var(--cor04));
+background-color: whitesmoke
+
 }
 
 header{
@@ -36,6 +36,28 @@ header > h1{
 
 }
 
+nav{
+    background-color: var(--cor01);
+    padding: 10px;
+    box-shadow: 0px, 7px, 7px rgba(0, 0, 0, 0.45);
+}
+
+nav > a{
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5;
+
+}
+
+nav > a:hover{
+    background-color: var(--cor04);
+    color: white;
+    padding: 5px;
+
+}
 
 
 
@@ -44,60 +66,69 @@ main{
     font-family: var(--font-padrao);
     max-width: 1000px;
     min-width: 300px;
-    margin: 0px 0px 0px 20px;
+    margin: auto;
     margin-bottom: 5px;
     padding: 20px;
     background-color: white;
     text-align: justify;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    border-radius: 5px;
-    
-    
-
-    
+    border-radius: 5px;    
 }
 
-main > p{
-    font-family: var(--font-padrao);
-    margin: 15px ;
-    text-align: justify;
-    text-indent: 30px;
-    font-size: 2em;
-    line-height: 3em;
-}
-main > h1{
-    color: var(--cor05);
+
+main h1{
+    color: var(--cor03);
     font-family: var(--font-destaque);
     font-weight: normal;
     font-size: 20px;
     line-height: 2.5em;
+    font-size: 2em;
 
 }
-main > h2{
+main h2{
     font-family: var(--font-destaque);
     font-weight: normal;
     color: var(--cor04);
     line-height: 2em;
+    font-size: 1.7em;
    
 }
 
+main p{
+    font-family: var(--font-padrao);
+    margin: 15px ;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+ li{
+    font-family: var(--font-padrao);
+    font-size: 0.8;
+    padding: 10px;
+   margin-left: 50px;
+}
+
+img{
+  max-width: 1000px; 
+  max-height: 900px;
+  
+  
+
+}
 
 footer{
     background-color: var(--cor01);
     color: white;
+    font-family: var(--font-padrao);
     text-align: center;
     font-weight: bolder;
     font-size: 0.8;
     padding: 5px;
 }
 
-footer> img{
-    margin-left: 30px;
-    max-width: 20px;
-    max-height: 20px;
-    background-color: aliceblue;
-    border-radius: 50%;
-}
+
+
 
 
