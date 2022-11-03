@@ -110,13 +110,18 @@ main p{
    margin-left: 50px;
 }
 
-img{
-  max-width: 1000px; 
-  max-height: 900px;
-  
+main img{
+  width: 100%;
   
 
 }
+
+
+
+    
+    
+  
+
 
 footer{
     background-color: var(--cor01);
