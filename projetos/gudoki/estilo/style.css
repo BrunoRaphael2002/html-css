@@ -10,7 +10,7 @@
     --cor1:#0052d6;
     --cor2:#ffc939;
     --cor3:rgb(22, 21, 21);
-    --cor4: #d0e6f0;
+    --cor4: #ebf0f3;
     --cor5:#202124;
 }
 *{
@@ -31,11 +31,11 @@ header{
     height: 300px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: scroll;
     
 }
 
-header>h1{
+header h1{
     font-family: var(--font03);
     padding-top:30px ;
     color: var(--cor5);
@@ -95,6 +95,33 @@ div.um{
     text-align: center;
 }
 
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    
+}
+
+ section.image {
+    height: 315px;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#img01{
+    background-image:url(../imagens/gustavo-soares-pantheon.jpg);
+    background-position: top, center;
+   
+}
+
+section#img02{
+    background-image:url(../imagens/gustavo-soares-nahidaff2.jpg);
+    background-position:top,center;
+   
+}
 
 
 
