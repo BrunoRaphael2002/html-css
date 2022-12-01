@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
   
         margin: 0;
@@ -58,7 +64,28 @@ body{
     max-height: 1400px;
     min-height: 400px;
     padding: 30px;
-    box-sizing: border-box;
     margin: 30px;
+    
+    
 
+}
+
+.valoresetamanho{
+
+    margin-top: 40px;
+    background-color: rgb(155, 127, 255);
+    padding: 40px ;
+    width: 100%;
+    font-family: verdana;
+    
+    
+}
+
+.valoresetamanho h1{
+    margin: 0 auto;
+    border-top: solid white 2px;
+    border-bottom: solid white 2px ;
+    width: 790px;
+    text-align: center;
+    color: #ffff;
 }
