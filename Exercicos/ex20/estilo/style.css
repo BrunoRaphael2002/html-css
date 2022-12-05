@@ -59,9 +59,7 @@ body{
 
 
     width: 50%;
-    max-width: 1400px;
     min-width: 400px;
-    max-height: 1400px;
     min-height: 400px;
     padding: 30px;
     margin: 30px;
@@ -77,6 +75,15 @@ body{
     padding: 40px ;
     width: 100%;
     font-family: verdana;
+
+
+    /*                  overflow: auto;
+    O overlow server para criar uma barra de rolagem em textos ou imagens muito grandes que acabem ultrapassando o limite de uma div por exemplo.
+
+    propriedades: scroll,overflow-x, overflow-y, auto(ele só adiciona a barra de rolagem se for nescessario) no overflow x e y para não aparecer duas barras de rolagem basta definir o tamanho do texto ou imagem até que suma a barra desejada seja ela horizontal ou vertical. 
+
+    forma simplificada overflow: auto(Overflow-x) scroll(Overflow-y);
+    */
     
     
 }
@@ -88,4 +95,21 @@ body{
     width: 790px;
     text-align: center;
     color: #ffff;
+}
+
+.display {
+    display: inline;
+    margin: 35px;
+}
+
+.display h1 {
+    display: inline;
+
+}
+
+.display img {
+    display: inline;
+    width: 20%;
+    border-radius: 25px;
+    margin: 35px;
 }
