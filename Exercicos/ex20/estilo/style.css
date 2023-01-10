@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  
+        margin: 0;
+        background-image: url('../imagens/img0.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        
+        
+    /* 
+            Principais funções do background-image
+
+            background-repeat: exitem as funções repeat, no-repeat, repeat-x, repeat-y
+            background-position: center, top, bottom, right, left, (center, top) etc..
+             background-size: altera o tamanho cover, contain % (50%, 20%, 10% etc..)
+              background-attachment: fixed, scroll etc..
+
+              forma rduzida
+
+                background: url("img0.jpg") rgba(57, 128, 198, 0.533) cover fixed no-repeat;
+        
+                
+    
+    
+    
+    */
+
+}
+
+
+.overflow img{
+    /* 
+            Modificando elementos html
+
+        modificar elementos significa alterar as propriedades das 'caixas'.
+
+        width:; --> a largura pode ser definida em % que é um valor relativo pois a imagem, texto ou obejeto vai se adequar de acordo com o o tamanho da tela ou seja se a tela possui 1000px e é colocado uma largura de 50% em uma imagem por exemplo a imagem ocuparia cerca de 500px de acordo com o tamanho da tela
+
+        height:; --> a largura pode ser definida em % que é um valor relativo pois a imagem, texto ou obejeto vai se adequar de acordo com o o tamanho da tela ou seja se a tela possui 1000px e é colocado uma largura de 50% em uma imagem por exemplo a imagem ocuparia cerca de 500px de acordo com o tamanho da tela
+
+        padding:;
+        margin:;
+        border:;
+        min-width:; --> já a propriedade min-width ou max-width ela serve para definir o tamanho maximo de largura exemplo uma imagem ela possui um width de 100% e seu max-width é de 1400px e o min-width é de 400px ou seja a imagem vai ficar em 100% em uma tela de 400px até 1400px por exemplo
+
+        max-width:;
+        min-height:;
+        max-height:;
+
+    */
+
+
+    width: 50%;
+    min-width: 400px;
+    min-height: 400px;
+    padding: 30px;
+    margin: 30px;
+    
+    
+
+}
+
+.valoresetamanho{
+
+    margin-top: 40px;
+    background-color: rgb(155, 127, 255);
+    padding: 40px ;
+    width: 100%;
+    font-family: verdana;
+
+
+    /*                  overflow: auto;
+    O overlow server para criar uma barra de rolagem em textos ou imagens muito grandes que acabem ultrapassando o limite de uma div por exemplo.
+
+    propriedades: scroll,overflow-x, overflow-y, auto(ele só adiciona a barra de rolagem se for nescessario) no overflow x e y para não aparecer duas barras de rolagem basta definir o tamanho do texto ou imagem até que suma a barra desejada seja ela horizontal ou vertical. 
+
+    forma simplificada overflow: auto(Overflow-x) scroll(Overflow-y);
+    */
+    
+    
+}
+
+.valoresetamanho h1{
+    margin: 0 auto;
+    border-top: solid white 2px;
+    border-bottom: solid white 2px ;
+    width: 790px;
+    text-align: center;
+    color: #ffff;
+}
+
+.display {
+    display: inline;
+    margin: 35px;
+}
+
+.display h1 {
+    display: inline;
+
+}
+
+.display img {
+    display: inline;
+    width: 20%;
+    border-radius: 25px;
+    margin: 35px;
+}

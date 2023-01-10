@@ -216,6 +216,9 @@ aside > ul{
 
 }
 
+main img{
+    width: 100%;
+}
 
 footer{
     background-color: var(--cor05);
