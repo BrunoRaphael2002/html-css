@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@1,200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+header{
+   width: 100vw;
+    background: rgba(0, 0, 0, 0.952);
+    position: fixed;
+    padding-right: 30px ;
+    
+
+}
+
+nav{
+    padding: 30px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-right: 15px;
+
+
+}
+
+.cor{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: -3px  -2px  40px rgb(255, 174, 0);
+    font-family: 'Poppins', sans-serif;
+
+  
+
+}
+
+.cor:hover{
+    font-weight: bold;
+    color: rgb(255, 214, 125);
+    
+    
+
+   
+}
+
+.cor-link{
+    color: white;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+
+  
+}
+
+.background{
+    background-image:  url('../assets/img-2.jpg' )  ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.11);
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.a  {
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    margin: 0 auto;
+    
+}
+
+.a h1{
+    font-size: 4em;
+    text-align: center;
+
+    
+    
+}
+
+.a p{
+    font-size: 1.5em;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 45px;
+    padding: 10px 20px;
+    margin:60px auto;
+    width: max-content;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.conteudo{
+    background: rgb(241, 238, 238);
+    padding: 100px  ;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    box-shadow: -10px 0px 40px 40px ;
+    font-family: 'Poppins', sans-serif;
+    line-height: 20px;
+}
+
+.conteudo h1 {
+    margin: 0px auto;
+    padding-bottom: 50px;
+    text-align: center;
+    line-height: 20px;
+    font-weight: 600 ;
+}
+
+.conteudo p{
+    text-align: center;
+    line-height: 30px;
+    font-weight: 300 ;
+}
+
+
+
+
+
+
+
