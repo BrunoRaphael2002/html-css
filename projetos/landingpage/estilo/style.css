@@ -8,7 +8,14 @@
     box-sizing: border-box;
     
     
+    
 }
+
+body{
+    background-color: rgb(241, 238, 238)
+}
+
+
 
 header{
    width: 100vw;
@@ -24,6 +31,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 ul{
@@ -38,6 +46,8 @@ ul{
 }
 
 .cor{
+    margin-right: 30px;
+    text-decoration: none;
     color: white;
     font-size: 15px;
     font-weight: bold;
@@ -49,7 +59,12 @@ ul{
 
 }
 
-.cor:hover{
+.cor a  {
+    text-decoration: none;
+    color: white;
+}
+
+.cor :hover{
     font-weight: bold;
     color: rgb(255, 214, 125);
     
@@ -61,6 +76,7 @@ ul{
 .cor-link{
     color: white;
     text-decoration: none;
+    margin-right: 30px;
     font-size: 28px;
     font-weight: 600;
     text-transform: uppercase;
@@ -75,31 +91,36 @@ ul{
     background-attachment: fixed;
     background-size: cover;
     background-blend-mode: multiply;
-    background-color: rgba(0, 0, 0, 0.11);
+    background-position:   center;
+    background-color: rgba(51, 27, 27, 0.534);
     height: 100vh;
 
     display: flex;
     justify-content: center;
     align-items: center;
+    align-content: center;
     
 }
 
-.a  {
+.banner  {
     font-family: 'Bebas Neue', cursive;
     color: white;
     margin: 0 auto;
+
+    
     
 }
 
-.a h1{
+.banner h1{
     font-size: 4em;
     text-align: center;
+    margin: 60px auto;
 
     
     
 }
 
-.a p{
+.banner p{
     font-size: 1.5em;
     text-align: center;
     border: 1px solid white;
@@ -111,34 +132,149 @@ ul{
     font-weight: 600;
 }
 
-.conteudo{
-    background: rgb(241, 238, 238);
-    padding: 100px  ;
+.seta{
+    
+    text-align: center;
     margin: 0 auto;
-    text-align: center;
-    width: 100%;
-    box-shadow: -10px 0px 40px 40px ;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.seta img{
+    width: 40px;
+    
+}
+
+
+
+.pesquisa{
+    background: rgb(241, 238, 238);
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 50%;
     font-family: 'Poppins', sans-serif;
-    line-height: 20px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+    
+    
 }
 
-.conteudo h1 {
-    margin: 0px auto;
-    padding-bottom: 50px;
-    text-align: center;
-    line-height: 20px;
-    font-weight: 600 ;
+.pesquisa p{
+    padding: 20px 40px;
+    
+    
+}
+.pesquisa img{
+    width: 20px;
+    margin-right: 20px;
+   
 }
 
-.conteudo p{
+
+.card{
+    background: rgb(241, 238, 238);
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
+    
+}
+
+.card .produto {
+   
+    
+
+    background: rgb(241, 238, 238);
+    width: 300px;
+    
+    margin: 20px 20px ;
+    border: 1px solid white;
+    border-radius: 5px ;
+    box-shadow: -1px 1px 40px 2px rgb(168, 167, 167);
+}
+
+.produto img{
+   width: 300px;
+   margin-bottom: 30px;
+
+
+}
+
+.texto{
     text-align: center;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
     line-height: 30px;
-    font-weight: 300 ;
+    padding: 50px;
+   
+}
+
+.texto h1{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+}
+
+.texto p {
+    margin: 10px;
+}
+
+.texto span{
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(37, 121, 16);
+    font-size: larger;
+    font-weight: 500;
+}
+
+.botao {
+    
+    margin-top: 30px;
+    background-color:  rgb(247, 94, 6);
+    border: 2px solid   rgb(247, 94, 6);
+    border-radius: 25px;
+    font-family: 'Bebas Neue', cursive;
+    padding: 10px 50px;
+    text-decoration: none;
+    color: white;
+    
 }
 
 
 
+.botao:hover{
+    color: rgb(0, 0, 0);
+
+}
 
 
+
+footer{  
+    margin: 0;
+    padding: 0;
+  /*  margin-top: 200px ;*/
+    height: 25%;
+    background-color: rgb(54, 54, 54);
+}
+
+footer ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin-left: 30px ;
+    padding: 50px 0;
+}
 
 
