@@ -8,6 +8,11 @@
 
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 .cabecalho{
     display: flex;
     justify-content: space-between;
@@ -34,10 +39,7 @@
     
 }
 
-a{
-    text-decoration: none;
-    color: white;
-}
+
 
 .cabecalho nav li a {
     font-weight: bold;
