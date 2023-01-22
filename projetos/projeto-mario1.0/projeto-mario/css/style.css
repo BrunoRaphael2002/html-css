@@ -166,7 +166,7 @@ a{
         height: 360px;
 }
 
-.modal.aberta{
+.modal.aberto{
     opacity: 1;
     visibility: visible;
 }
