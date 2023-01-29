@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2? family=Bebas+Neue&family=Poppins:ital,wght@1,200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+   background:hsl(257, 40%, 49%);
+
+   background-image: url('../images/bg-desktop.svg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+}
+
+header{
+    margin: 0 auto;
+}
+
+.logo img{
+    margin: 30px 30px;
+}
+
+section {
+    margin: 30px;
+    
+}
+
+section h1{
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    text-align: justify;
+    font-weight: 600;
+}
+
+section p{
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    text-align: justify;
+}
+
+
+
+.bg{
+    padding: 30px;
+
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+
+button{
+    margin: 20px;
+    background: white;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 25px;
+}
+
+button a{
+    text-decoration: none;
+    color: hsl(257, 40%, 49%) ;
+    font-weight: bold;
+
+}
+
+button:hover{
+    background: hsl(300, 69%, 71%);
+    font-weight: bold;
+}
+
+a:hover{
+    color:white;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
