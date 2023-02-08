@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+   /* outline: auto #00FF43;*/
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    position: fixed;
+    max-width: 1440px;
+    width: 100%;
+    background-color:#0d0d0dd3;
+  
+}
+
+header figure a img{
+    width: 100%;
+    max-width: 50px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+header nav ul{
+    display: flex;
+    align-items: center;
+    height: 100%;
+   
+
+}
+
+header nav li a {
+    color: white;
+    font-size: 17px;
+    padding: 10px 20px;
+    margin: 20px;
+    border-radius: 25px;
+    transition: 0.2s;
+
+}
+header nav li a:hover{
+    color: white;
+    background-color: #00FF43;
+}
+
+.plano-de-fundo{
+    background-image: url('../assets/img03.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.582);
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+     
+    
+}
+
+
+
+.plano-de-fundo .texto-cta{
+    max-width: 900px;
+    border: 2px solid white;
+    padding: 50px;
+    text-align: center;
+    margin-top: 70px;
+    
+}
+
+.plano-de-fundo .texto-cta h1{
+    color: white;
+    padding: 20px;
+    margin-bottom: 30px ;
+    font-size: 3.5rem;
+
+}
+
+.plano-de-fundo .texto-cta button {
+    padding: 20px 40px;
+    text-align: center;
+    background: white;
+    border: none;
+    font-weight: 600;
+    width: 250px;
+    font-size: 17px;
+    
+    
+}
+
+.plano-de-fundo .texto-cta a button {
+    color: black;
+}
+
+.plano-de-fundo .texto-cta a button:hover{
+    background-color: #00FF43;
+    color: white;
+}
+
+
+
+main{
+    background:#0D0D0D;
+    height: 100vh;
+    width: 100%;
+    padding: 50px;
+  
+    
+    
+   
+
+    
+    
+}
+.info-01{
+    margin: 0 auto;
+    background-color: white;
+    color: black;
+    max-width: 1440px;
+    height: 100%;
+    padding: 50px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+   
+    
+}
+
+.info-01 .texto {
+      color: rgb(0, 0, 0);
+      max-width: 500px;
+      padding: 10px;
+      text-align: center;
+      margin: 0 auto;
+      text-transform: uppercase;
+      
+}
+
+.info-01 .img img{
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    
+   
+}
+
+
+
+
+.rodapé{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid whitesmoke;
+    background-color: #0D0D0D;
+    width: 100%;
+   
+  
+
+}
+
+.rodapé ul{
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    padding: 50px;
+    margin: 0 auto;
+}
+
+.rodapé ul li{
+    margin: 10px;
+}
