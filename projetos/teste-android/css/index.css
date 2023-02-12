@@ -1,3 +1,5 @@
+
+
 *{
     margin: 0;
     padding: 0;
@@ -6,179 +8,266 @@
    /* outline: auto #00FF43;*/
 }
 
-body{
-    background-color: rgb(255, 255, 255);
+:root{
+    --cor01:#151515 ;
+    --cor02: #00FF43;
+    --cor03: #1e192c;
+    --cor04: #251849;
+    --cor05:  white;
+
 }
 
-header{
+body{
+    background-color: #1e192c;
+}
+
+.topo{
+    background-color: var(--cor01);
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0.5rem 1rem;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px;
-    position: fixed;
-    max-width: 1440px;
-    width: 100%;
-    background-color:#0d0d0dd3;
-  
 }
 
-header figure a img{
-    width: 100%;
-    max-width: 50px;
-    border-radius: 50%;
-    margin: 0 auto;
+
+.imagem-logo img{
+   max-width: 100px;
+   width: 100%;
+   border-radius: 50%;
+   margin-left: 20px;
 }
-header nav ul{
+
+.menu ul{
     display: flex;
     align-items: center;
-    height: 100%;
-   
-
-}
-
-header nav li a {
-    color: white;
-    font-size: 17px;
+    gap: 30px;
     padding: 10px 20px;
-    margin: 20px;
-    border-radius: 25px;
-    transition: 0.2s;
+    height: 100%;
+
 
 }
-header nav li a:hover{
+
+.menu li a{
     color: white;
-    background-color: #00FF43;
+    font-size: 16px;
+    line-height: 1.15;
+    text-align: center;
+    text-transform: uppercase;
+
+    
 }
 
-.plano-de-fundo{
-    background-image: url('../assets/img03.jpg');
+.menu li a:hover{
+    color:var(--cor02);
+}
+
+/*headder ok ! */
+
+.imagem-fundo{
+    background-image: url('../assets/img01.jpg');
     background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    width: 100%;
+    background-position: center ;
+    
     height: 100vh;
-    background-blend-mode: multiply;
-    background-color: rgba(0, 0, 0, 0.582);
-    display: flex;
-    align-items: center;
-    justify-content: center;  
-     
-    
 }
-
-
-
-.plano-de-fundo .texto-cta{
-    max-width: 900px;
-    border: 2px solid white;
-    padding: 50px;
-    text-align: center;
-    margin-top: 70px;
-    
-}
-
-.plano-de-fundo .texto-cta h1{
-    color: white;
-    padding: 20px;
-    margin-bottom: 30px ;
-    font-size: 3.5rem;
-
-}
-
-.plano-de-fundo .texto-cta button {
-    padding: 20px 40px;
-    text-align: center;
-    background: white;
-    border: none;
-    font-weight: 600;
-    width: 250px;
-    font-size: 17px;
-    
-    
-}
-
-.plano-de-fundo .texto-cta a button {
-    color: black;
-}
-
-.plano-de-fundo .texto-cta a button:hover{
-    background-color: #00FF43;
-    color: white;
-}
-
 
 
 main{
-    background:#0D0D0D;
-    height: 100vh;
-    width: 100%;
-    padding: 50px;
-  
-    
-    
-   
-
-    
-    
-}
-.info-01{
-    margin: 0 auto;
-    background-color: white;
-    color: black;
-    max-width: 1440px;
+    background-color: #1e192c;
+    padding: 50px 30px;
     height: 100%;
-    padding: 50px;
-    border-radius: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-
-   
-    
-}
-
-.info-01 .texto {
-      color: rgb(0, 0, 0);
-      max-width: 500px;
-      padding: 10px;
-      text-align: center;
-      margin: 0 auto;
-      text-transform: uppercase;
-      
-}
-
-.info-01 .img img{
     width: 100%;
-    max-width: 300px;
-    margin: 0 auto;
+
     
-   
-}
-
-
-
-
-.rodapé{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-top: 1px solid whitesmoke;
-    background-color: #0D0D0D;
-    width: 100%;
-   
   
-
 }
 
-.rodapé ul{
-    color: white;
-    text-align: center;
-    margin: 0 auto;
+.info-squad21{
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box-info{
+   
+   background-color: var(--cor01);
+   border-radius: 25px;
+   box-shadow: 2px 2px 30px 5px var(--cor01);
+    width: 100%;
+    max-width: 1330px;
+    margin: 0px auto;
     padding: 50px;
-    margin: 0 auto;
+   
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
 }
 
-.rodapé ul li{
-    margin: 10px;
+.info-img{
+    background-image: url('../assets/1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: aliceblue;
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 10px;
+    transition: 0.2s;
 }
+
+.info-img:hover{
+   background-image: url('../assets/2.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-color: aliceblue;
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.texto-info{
+    color: white;
+    margin: 0 auto;
+    padding: 20px;
+   
+}
+
+.texto-info h1{
+    margin: 20px;
+    font-size: 3rem;
+}
+
+.texto-info span{
+    color: var(--cor02);
+}
+
+.texto-info p{
+    text-align: justify;
+    line-height: 34px;
+}
+
+
+
+
+
+/*Seção cards*/
+
+ .cards{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    padding: 30px;
+    max-width: 900px;
+    max-height:1050px ;
+    
+}
+
+.card-box{
+    background-color: var(--cor04);
+    box-shadow: 7px 7px var(--cor02);
+    max-width: 400px;
+    height: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+
+
+
+
+    cursor: pointer;
+    font-weight: 500;
+    
+
+
+   
+}
+
+.card-box h1{
+    margin: 30px;
+    padding: 10px;
+}
+
+.card-box p {
+    line-height: 1.5rem;
+    text-align: center;
+}
+
+.card-box img{
+    width: 70px;
+    border-radius: 50%;
+}
+
+.teste{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.btn {
+    margin-top: 50px;
+    padding: 10px;
+    
+    
+}
+
+.btn a button{
+    color: var(--cor04);
+    font-weight: 600;
+    border: none;
+    padding: 20px 20px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    text-align: center;
+   
+    transition: 0.2s;
+    
+}
+
+.btn a button:hover{
+    background-color: var(--cor02);
+    color: white;
+}
+
+/*Seção cards*/
+
+/*Seção Rodapé*/
+footer{
+    height: 100%;
+    background-color: var(--cor01);
+    margin-top: 50px ;
+    padding: 50px;
+}
+
+
+
+.links h1{
+    color: white;
+    font-size: 3rem;
+    line-height: 1.15;
+    text-align: center;
+    margin: 30px;
+    
+}
+
+.links  p{
+    color: var(--cor02);
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+       
+}
+/*Seção Rodapé*/
