@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Painel de Controle</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="btn.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script:wght@500&family=Great+Vibes&family=Poppins:ital,wght@0,500;1,200;1,300&display=swap" rel="stylesheet">
+</head>
+<body class="dark-mode">
+
+    <div class="flex-box-container">
+        <header>
+            <h1>Gerenciador do seu negócio</h1>
+            
+        </header>
+        <div class="buttons-container">
+            <button id="pdvButton">PDV <span class="emoji" role="img" aria-label="Dinheiro">💰</span></button>
+            <a href="estoque.html" id="estoqueLink">
+                <button id="estoqueButton">Estoque <span class="emoji" role="img" aria-label="Caixa">📦</span></button>
+            </a>
+            <button id="financeiroButton">Financeiro <span class="emoji" role="img" aria-label="Dinheiro">💰</span></button>
+            <button id="deliveryButton">Delivery <span class="emoji" role="img" aria-label="Entrega">🚚</span></button>
+
+            
+        </div>
+
+        <div class="current-time">
+            <p id="time">Carregando...</p>
+        </div>
+    </div>
+
+    <div class="position-change-btn"><button id="darkModeButton"><img src="moon.png" alt="moon"></button></div>
+
+    <footer>
+        <p>&copy; 2023 Lucas Martins</p>
+    </footer>
+    <script src="mudarTema.js"></script>
+    <script src="scripts.js "></script>
+</body>
+</html>

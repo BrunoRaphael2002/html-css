@@ -1,0 +1,125 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fff;
+    color: #333;
+    transition: background-color 0.5s, color 0.5s;
+   
+}
+
+.dark-mode {
+    background: #222;
+    color: #fff;
+}
+
+header {
+    background: #1a5276;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+    position: relative;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    display: inline-block;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+button, a button {
+    padding: 20px 60px;
+    font-size: 24px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s, background-color 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+button .emoji, a button .emoji {
+    font-size: 28px;
+    margin-right: 10px;
+}
+
+button:hover, a button:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.current-time {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    
+}
+
+.flex-box-container {
+    min-height: 100vh; /* Garante que o contêiner flex cubra pelo menos a altura da janela do navegador */
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background: #1a5276;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1rem;
+    align-self: flex-end; /* Alinha o footer na parte inferior do contêiner flex */
+}
+
+#estoqueLink {
+    text-decoration: none;
+}
+
+#estoqueButton {
+    padding: 20px 60px;
+    font-size: 24px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s, background-color 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+#estoqueButton .emoji {
+    font-size: 28px;
+    margin-right: 10px;
+}
+
+#estoqueButton:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
