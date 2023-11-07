@@ -15,9 +15,16 @@ body {
 }
 
 .dark-mode {
-    background-color: #333;
-    color: #fff;
+  
+    color: #ffffff;
 }
+
+.ligth-mode{
+   
+    color: black;
+}
+
+
 
 header {
     background: #1a5276;

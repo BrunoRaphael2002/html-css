@@ -14,8 +14,11 @@ body {
 }
 
 .dark-mode {
-    background-color: #333;
-    color: #fff;
+    color: #ffffff;
+}
+
+.ligth-mode{
+    color: black;
 }
 
 header {
@@ -74,6 +77,7 @@ button:hover, a button:hover {
     text-align: center;
     margin-top: 20px;
     font-size: 24px;
+    
     
 }
 

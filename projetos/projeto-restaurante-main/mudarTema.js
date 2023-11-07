@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const body = document.body;
 
     function setLightMode() {
-        body.classList.remove("dark-mode");
+        body.classList.remove("ligth-mode");
         darkModeButton.innerHTML = '<img src="moon.png" alt="moon">';
         body.style.backgroundColor = 'white'; // Cor do fundo no modo claro
     }
