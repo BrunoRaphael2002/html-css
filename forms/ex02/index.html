@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <span>Faculdade</span>
+    </header>
+    <main>
+        <h1>Matrícula</h1>
+
+        <p>Preencha os campos abaixo para criar a sua matrícula e seu cadastro no ambiente virtual da faculdade.</p>
+
+        <form action="https://www.devmedia.com.br/codigos/formularios/aula3/">
+
+            <label>Nome: </label>
+            <input placeholder="Digite seu nome completo" type="text" name="nome" required />
+
+            <label>Data de Nascimento: </label>
+            <input type="date" name="data_nascimento" max="2004-03-01" required/>
+
+            <label>Email:</label>
+            <input placeholder="exemplo@email.com" type="email" name="email" required />
+
+            <label>Telefone:</label>
+            <input placeholder="(XX) XXXXX-XXXX" type="tel" name="telefone" minlength="14" required />
+
+            <label>Melhor dia para vencimento:</label>
+            <input placeholder="Valores entre 10 e 20" type="number" name="dia_vencimento" min="10" max="20" required />
+
+            <label>Login:</label>
+            <input placeholder="Digite seu login" type="text" name="login" minlength="3" required/>
+
+            <label>Senha:</label>
+            <input placeholder="Digite sua senha" type="password" name="senha" minlength="4" maxlength="8" required />
+
+            <button type="submit">Enviar Matrícula</button>
+
+            <a class="O" href="../ex01/forms.html">O</a>
+
+        </form>
+    </main>
+    <footer>
+        Copyright 2022 - Faculdade
+    </footer>
+</body>
+</html>
