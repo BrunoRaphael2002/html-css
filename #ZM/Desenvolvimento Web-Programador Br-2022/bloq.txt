@@ -1,0 +1,562 @@
+Módulo: Apresentação do Curso (novo)
+	Aula: Boas-vindas
+	Aula: Como funciona a plataforma do curso
+	Aula: Como tirar dúvidas com o nosso suporte
+	Aula: Como baixar seus certificados
+	Aula: Ferramentas que vamos utilizar no curso
+Módulo: Conceitos de Programação (novo)
+	Aula: Como o HTML, CSS e JSS funcionam juntos
+	Aula: Front end e back end
+	Aula: Como a internet funciona
+	Aula: Página estática vs página dinâmica
+Módulo: HTML Básico (novo)
+	Aula: Elemento HTML e Tag
+	Aula: Estrutura básica do HTML
+	Aula: Meta, Title, Atributos e Tag de Auto Fechamento
+	Aula: Extensão Live Server
+	Aula: Títulos, Parágrafos e Semântica
+	Aula: Comentários
+	Aula: Formatação de texto
+	Aula: Quebra de linha
+	Aula: Links
+	Aula: Imagens
+	Aula: Figure
+	Aula: Hierarquia de pastas
+	Aula: Listas
+	Aula: Links Telefone, WhatsApp e Instagram
+	Aula: Lang
+	Aula: Div e Id
+Módulo: Projeto: Currículo [HTML Básico] (novo)
+	Aula: Como enviar o seu projeto para o suporte usando o Google Drive
+	Aula: Apresentação Projeto Currículo
+	Aula: Resolvendo Projeto Currículo
+Módulo: CSS Básico (novo)
+	Aula: Tipos de estilos CSS
+	Aula: CSS inline
+	Aula: CSS interno
+	Aula: CSS externo
+	Aula: Seletores de elemento, classe e id
+	Aula: Comentários
+	Aula: Color e Background Color
+	Aula: Ferramenta Inspect do Google Chrome
+	Aula: Usando o Inspect no nosso projeto
+	Aula: Background
+	Aula: Background Gradiente
+	Aula: Unidades de medida absolutas (fixas)
+	Aula: Unidades de medida relativas (referência)
+	Aula: Unidades de medida relativas para fontes
+	Aula: Ajustes de texto
+	Aula: Fontes
+	Aula: Fontes customizadas
+	Aula: Border
+	Aula: Margin e Padding
+	Aula: Box Model e Box Sizing
+	Aula: Overflow
+	Aula: Alinhamento Horizontal
+	Aula: Estilo de link
+	Aula: Listas
+	Aula: Cursores
+Módulo: Projeto: Página de Conteúdo [CSS Básico] (novo)
+	Aula: Apresentação Projeto Página de Conteúdo
+	Aula: Top bar
+	Aula: Header
+	Aula: Content - Parte 1
+	Aula: Content - Parte 2
+Módulo: CSS - Intermediário
+	Aula: Introdução CSS Intermediário
+	Aula: Display
+	Aula: Position - Static e Relative
+	Aula: Position - Absolute
+	Aula: Position - Fixed
+	Aula: Position - Sticky
+	Aula: Float
+	Aula: Alinhamento Vertical
+	Aula: Viewport
+	Aula: Responsividade
+	Aula: Media Queries
+Módulo: HTML - Intermediário
+	Aula: Introdução - Html Intermediário
+	Aula: Formulário - 1
+	Aula: Formulário - 2
+	Aula: Tipos de input
+	Aula: Select
+	Aula: Textarea
+	Aula: HTML 5 Intro
+	Aula: Input HTML 5
+	Aula: Tags Semânticas
+Módulo: Projeto - Página de Captura
+	Aula: Introdução - Página de Captura
+	Aula: Configuração inicial do projeto
+	Aula: Cabeçalho
+	Aula: Conteúdo principal
+	Aula: Estilo do conteúdo principal
+	Aula: Rodapé
+	Aula: Estilo do rodapé
+	Aula: Aplicações desse projeto
+	Aula: Configurando o Mailchimp
+	Aula: Integração com o Mailchimp
+Módulo: Negócios, Preparando sua primeira venda
+	Aula: Introdução - Negócios + Mindset
+	Aula: Como encontrar seu primeiro cliente
+	Aula: Como um negócio Funciona?
+	Aula: Estudando a concorrência
+	Aula: Vencendo objeções
+	Aula: Buscando referências de Design 
+	Aula: Hospedagem e Domínio - Parte 1
+	Aula: Hospedagem e Domínio - Parte 2
+	Aula: Desafio - Negócios, Preparando sua primeira venda
+Módulo: Javascript - Básico (Lógica de programação)
+	Aula: Primeiro contato + Hello World
+	Aula: Algoritmos
+	Aula: Console
+	Aula: Variáveis
+	Aula: Tipos de dados
+	Aula: Operações aritméticas
+	Aula: Atribuições
+	Aula: Operadores comparativos
+	Aula: Operadores lógicos
+	Aula: Strings
+	Aula: Transformando Strings em Números
+	Aula: Alert e Prompt
+	Aula: Condicionais - IF
+	Aula: Operador Ternário
+	Aula: Condicionais - Switch
+	Aula: Repetição - FOR e WHILE
+	Aula: Arrays
+	Aula: Funções
+	Aula: Funções parte 2
+	Aula: Juntando tudo até aqui.
+	Aula: Objetos - Propriedades
+	Aula: Objetos - Métodos
+	Aula: Objetos - Construtores
+	Aula: Objetos - Resumo
+	Aula: Datas
+	Aula: Const, Let e Var
+Módulo: Javascript - Intermediário
+	Aula: Introdução - Javascript Intermediário
+	Aula: Window
+	Aula: Document
+	Aula: Document - parte 2
+	Aula: Acessando elementos HTML com JS
+	Aula: Modificando elementos
+	Aula: Eventos - Parte 1/3 (DOM Events)
+	Aula: Eventos - Parte 2/3
+	Aula: Eventos - Parte 3/3
+	Aula: O que é o This?
+	Aula: Tirando dúvida sobre o lance dos parênteses nas funções
+	Aula: Comparando as maneiras de criar um evento
+	Aula: Elementos pai e filhos
+	Aula: Biblioteca Math
+	Aula: JSON
+	Aula: Local Storage - Persistência de dados
+	Aula: Criando uma página para sorteio
+	Aula: Timer e Intervalo
+Módulo: Projeto Churrascômetro
+	Aula: Introdução - Churrascômetro
+	Aula: Pensando sobre a solução
+	Aula: Estrutura HTML
+	Aula: Estilo CSS
+	Aula: Código JS
+Módulo: HTML - Avançado
+	Aula: Introdução - Html Avançado
+	Aula: Atributos personalizados - Parte 1
+	Aula: Atributos Personalizados - Parte 2
+	Aula: Video
+	Aula: Video - Controle (Parte 1)
+	Aula: Video - Controle (Parte 2)
+	Aula: iFrame
+	Aula: Audio
+	Aula: Animação com HTML
+	Aula: Canvas - Intro + Linhas
+	Aula: Canvas - Largura x Altura
+	Aula: Canvas - Retângulo
+	Aula: Canvas - Inicio e Fim do caminho (Path)
+	Aula: Canvas - Circles
+	Aula: Canvas - Animação
+	Aula: Canvas - Imagens
+Módulo: CSS - Avançado
+	Aula: Introdução - CSS Avançado
+	Aula: Pseudo Elementos
+	Aula: Seletores
+	Aula: Pseudo Classes
+	Aula: Função Calc CSS
+	Aula: Transformações
+	Aula: Compatibilidade de navegadores
+	Aula: Variáveis em CSS
+	Aula: FlexBox - Flex Direction
+	Aula: Flexbox - Wrap
+	Aula: Flexbox - Flex Flow
+	Aula: Flexbox - Justify Content + Align Items
+	Aula: Flexbox - Align Content
+	Aula: Flexbox - Grow/Shrink
+	Aula: Flexbox - Ordem
+	Aula: Flexbox - Align Self
+	Aula: Desafio FlexBox
+	Aula: Resolvendo o desafio FlexBox
+	Aula: Grid - Intro
+	Aula: Grid Template
+	Aula: Grid Gap
+	Aula: Grid Justify e Align Items
+	Aula: Grid Justify e Align Content
+	Aula: Grid Template Area
+	Aula: Grid Column e Row Start e End
+Módulo: CSS - Animações
+	Aula: Introdução - CSS Animações
+	Aula: Primeira Animação - Keyframes
+	Aula: Adicionando estados a animação
+	Aula: Propriedades
+	Aula: Delay
+	Aula: Loop
+	Aula: Direction
+	Aula: Fill Mode
+	Aula: Timing Function
+	Aula: Short Hand
+	Aula: Transitions
+Módulo:  JS avançado
+	Aula: Introdução - JS Avançado 
+	Aula: Strict mode
+	Aula: This e Bind
+	Aula: Arrow Functions
+	Aula: Callback
+	Aula: Promises
+	Aula: Async Await - Uma outra maneira de usar promises
+	Aula: Filter
+	Aula: Map
+	Aula: Valor vs Referência
+	Aula: Spread Operator
+	Aula: Desestruturando um objeto
+	Aula: Reduce
+	Aula: Desafio - JS Avançado
+	Aula: Fetch
+	Aula: try catch - tratamento de erros
+Módulo: Projeto Jogo da Velha
+	Aula: Introdução - Jogo da Velha
+	Aula: Criando o tabuleiro
+	Aula: Criando os Jogadores
+	Aula: Adicionando ações e símbolos
+	Aula: Verificando vencedor e finalizando
+Módulo: Projeto - Jogo da memória com animações
+	Aula: Introdução - Jogo da Memória
+	Aula: Estrutura das cartas
+	Aula: Estilo das cartas
+	Aula: Animando as cartas
+	Aula: Montando a tela de Game Over
+	Aula: Montando o estilo do tabuleiro
+	Aula: Criando o modelo Das cartas no jogo
+	Aula: Embaralhando as cartas
+	Aula: Montando o tabuleiro
+	Aula: Separando a View da Lógica
+	Aula: Checando se forma par
+	Aula: Achando e corrigindo bugs
+	Aula: Finalizando
+Módulo: Firebase - Firestore
+	Aula: Introdução - Firestore
+	Aula: Conhecendo o Firebase
+	Aula: Criando a conta no Firebase
+	Aula: Criando seu primeiro projeto
+	Aula: Coleções e documentos
+	Aula: Conectando o Firebase com o JS
+	Aula: Lendo documentos
+	Aula: Buscas -Selecionando melhor os documentos
+	Aula: Criando e alterando documentos
+	Aula: On Snapshot (atualização em tempo real) 
+	Aula: Apagando campos e documentos
+	Aula: Criando Usuários no Firebase
+	Aula: Gerenciando Logins
+	Aula: Sessão do usuário
+	Aula: O que são permissões?
+	Aula: Permissões e Regras
+Módulo: Jquery
+	Aula: Introducão - jQuery
+	Aula: Conhecendo o jQuery
+	Aula: Primeiros Passos
+	Aula: Eventos
+	Aula: Animações
+	Aula: Callback
+	Aula: Selecionando elementos Filhos
+	Aula: Encadeamento (chaining)
+	Aula: Lendo o conteúdo de um elemento
+	Aula: Modificando o conteúdo e características dos elementos
+	Aula: Selecionando Elementos por atributos
+	Aula: Removendo elementos
+	Aula: Inserindo Elementos
+	Aula: Modificando o CSS
+	Aula: Dimensões
+	Aula: Elementos irmãos (Siblings)
+	Aula: Filter, Last, First e Eq
+Módulo: Bootstrap
+	Aula: Boas vindas do Módulo Bootstrap
+	Aula: Como o Bootstrap foi pensado.
+	Aula: Bootstrap - Instalando e primeiros passos
+	Aula: Bootstrap - Cores
+	Aula: Bootstrap - Títulos e Display
+	Aula: Bootstrap - Margin e Padding
+	Aula: Bootstrap - Container
+	Aula: Bootstrap - Display + Float
+	Aula: Bootstrap - Responsividade
+	Aula: Bootstrap - Flexbox
+	Aula: Bootstrap - Grid
+	Aula: Bootstrap - Tipografia
+	Aula: Bootstrap - Imagens
+	Aula: Bootstrap - Tabelas
+	Aula: Bootstrap - Alertas
+	Aula: Bootstrap - Botões
+	Aula: Bootstrap - Grupo de Botões
+	Aula: Bootstrap - Collapse
+	Aula: Bootstrap - DropDown
+	Aula: Bootstrap - Cards
+	Aula: Bootstrap - Accordion
+	Aula: Bootstrap - Progress Bar
+	Aula: Bootstrap - Spinner
+	Aula: Bootstrap - Lista agrupada
+	Aula: Bootstrap - Páginação
+	Aula: Bootstrap - Nav
+	Aula: Bootstrap - Navbar
+	Aula: Bootstrap - Carousel
+	Aula: Bootstrap - Modal
+	Aula: Bootstrap - Tooltip
+	Aula: Bootstrap - Popover
+	Aula: Bootstrap - Toast
+Módulo: Firebase Storage
+	Aula: Introdução - Firebase Storage
+	Aula: Primeiros Passos
+	Aula: Referências
+	Aula: Um pouco mais sobre referências
+	Aula: Upload
+	Aula: Metadados
+Módulo: Node.Js
+	Aula: Introdução - Node JS
+	Aula: O que é Node.js
+	Aula: Instalando o Node
+	Aula: Instalando o Cmder
+	Aula: Executando scripts com Node
+	Aula: Js para Navegador vs JS para Node
+	Aula: Inserindo Argumentos
+	Aula: Módulos
+	Aula: Um pouco mais sobre módulos
+	Aula: Trabalhando com Arquivos em Node
+	Aula: Pacotes
+	Aula: Redimensionando uma imagem
+	Aula: Comprimindo imagens
+	Aula: Módulo HTTP
+	Aula: Primeiro servidor de Páginas com node
+	Aula: Um pouco mais sobre dependências.
+	Aula: Request
+	Aula: Métodos HTTP
+Módulo: Node - Express
+	Aula: Instalando o Express
+	Aula: Arquivos estáticos com Express
+	Aula: Express - Get
+	Aula: Post, Put, Delete
+	Aula: Insomnia - Rest Client
+	Aula: HTTP Request
+	Aula: HTTP Response
+	Aula: Middleware
+	Aula: Rotas
+	Aula: Separando as Rotas
+Módulo: Node - Integrando o Front Com o Back
+	Aula: Criando um Mural de Avisos (back) - Parte 1
+	Aula: Criando um Mural de Avisos (back) - Parte 2
+	Aula: Criando um Mural de Avisos (back) - Parte 3
+	Aula: Criando um Mural de Avisos (back) - Parte 4
+	Aula: Criando um Mural de Avisos (back) - Parte 5
+	Aula: Criando um Mural de Avisos (back) - Parte 6
+	Aula: Criando um Mural de Avisos (Front) - Parte 1
+	Aula: Criando um Mural de Avisos (Front) - Parte 2
+	Aula: Criando um Mural de Avisos (Front) - Parte 3
+	Aula: Cors
+Módulo: Node - Template Engine - EJS
+	Aula: Introdução - Template Engine
+	Aula: Criando um Template na mão
+	Aula: Configurando o EJS
+	Aula: Substituição de variáveis
+	Aula: For no EJS
+	Aula: If no EJS
+	Aula: Partials
+Módulo: Mongo DB - Parte 1
+	Aula: Introdução - Mongo
+	Aula: Overview
+	Aula: Instalando o Mongo (MAC)
+	Aula: Instalando o Mongo (WIN)
+	Aula: Instalando o Compass (Interface gráfica)
+	Aula: Criando um banco
+	Aula: Criando, apagando e mostrando coleções
+	Aula: Criando um documento
+	Aula: Selecionando documentos
+	Aula: Update
+	Aula: Mais um pouco sobre update
+	Aula: Considerações
+Módulo: MongoDb - Parte 2 (Mongoose)
+	Aula: Intro - O que vamos fazer (Mongo parte 2)
+	Aula: Instalando o Mongoose (ORM)
+	Aula: Criando documentos
+	Aula: Buscando um documento
+	Aula: Documentação
+	Aula: Organizando o código
+	Aula: Criando o documento através dos dados de um formulário
+	Aula: Integrando com o Front end
+	Aula: Tratando o erro no Backend
+	Aula: Buscando todos os links
+	Aula: Listando os links na tela
+	Aula: Apagando um  documento
+	Aula: Apagando Link - Front end
+	Aula: Outra forma de apagar
+	Aula: Ajustando as rotas
+	Aula: Editando os Links
+	Aula: Estilizando a página de links
+	Aula: Atualizando os Clicks
+	Aula: Estilizando telas de Add e Edit
+Módulo: Login JWT
+	Aula: Introdução - Login JWT
+	Aula: Configurando node
+	Aula: Rotas
+	Aula: Controladores
+	Aula: Banco de dados
+	Aula: Criando o usuário
+	Aula: Criptografando a senha
+	Aula: Login com o usuário
+	Aula: O que é JWT
+	Aula: Criando o Token
+	Aula: Protegendo rotas
+	Aula: Validando a entrada
+Módulo: https
+	Aula: O que é
+	Aula: Instalando o certificado
+	Aula: Forçando HTTPS
+Módulo: Socket
+	Aula: Introdução - Socket JS
+	Aula: O problema que o socket resolve
+	Aula: Conectando o front com o Back
+	Aula: Enviando mensagens entre o front e o back
+	Aula: Broadcast - enviando mensagem para todos
+	Aula: Chat - criando a base
+	Aula: Chat - trocando mensagens
+	Aula: Chat - criando usuários
+	Aula: Chat - Separando as salas
+Módulo: Estrategia e vendas parte 2
+	Aula: Introdução - Estratégias e vendas
+	Aula: Estrutura de uma venda
+	Aula: Funil de vendas
+	Aula: Tráfego
+	Aula: SEO - O que é?
+	Aula: SEO - Conteúdo e arquitetura
+	Aula: SEO - HTML e Confiança
+	Aula: SEO - Construção de links
+	Aula: Planejamento de palavra chave
+	Aula: Google trends
+	Aula: Google Maps
+	Aula: Google Meu negócio
+	Aula: Robots TXT
+	Aula: Analytics - O que é
+	Aula: Instalando o Analytics
+	Aula: Google Search Console
+	Aula: Indexando uma Página no Google
+	Aula: Criando um Sitemap
+	Aula: Configurando o Sitemap.
+Módulo: React js
+	Aula: Introdução - React JS
+	Aula: Como o React Funciona
+	Aula: Usando o React pela primeira vez
+	Aula: JSX
+	Aula: Create React App
+	Aula: Adiantando - Build do React
+	Aula: Componentes e propriedades
+	Aula: Listas
+	Aula: Criando Objetos com Class
+	Aula: Componentes com class
+	Aula: Estados
+	Aula: Métodos de ciclo de vida
+	Aula: Hooks estados
+	Aula: Hooks effect
+	Aula: Hook effect equivalente ao Unmount
+	Aula: Falando um pouco sobre import
+Módulo: React - Todo
+	Aula: Criando o Todo
+	Aula: Pegando o valor de um input
+	Aula: Adicionando itens na lista
+	Aula: Separando os componentes
+	Aula: Desmembrando o formulário
+	Aula: Criando um Item mais complexo
+	Aula: Apagando um item da lista
+	Aula: Marcando um item como realizado
+	Aula: Mudando a cara do TODO
+	Aula: Separando mais os componentes
+	Aula: Salvando o estado na memória
+	Aula: Criando um Modal - Parte 1 - Estrutura
+	Aula: Criando um Modal - Parte 2 - Funcionalidade
+Módulo: Gerenciamento de estado Context API
+	Aula: Apresentando o problema com um contador
+	Aula: Gerenciando o estado com Context API
+Módulo: Migrando o Jogo da memória para React
+	Aula: Introdução - Migrando o Jogo da memória
+	Aula: Revisando o código original
+	Aula: Iniciando o Projeto com React
+	Aula: Reaproveitando os arquivos prontos
+	Aula: Recriando o GameOver
+	Aula: Criando a carta com React
+	Aula: Criando o tabuleiro
+	Aula: Juntando as peças
+	Aula: Finalizando
+Módulo: Redux
+	Aula: Introdução - Redux
+	Aula: Como o Redux funciona
+	Aula: Criando a estrutura básica do Redux
+	Aula: Passando a carga para a Action - Action Creator
+	Aula: Usando mais de um Reducer
+	Aula: Separando os elementos do Redux
+	Aula: Redux-Thunk
+Módulo: React Redux
+	Aula: React-Redux Juntando as peças
+	Aula: Usando Combine Reducer com React
+	Aula: Usando Redux no TODO - Criando Actions e Reducers
+	Aula: Usando Redux no TODO - Disparando eventos
+	Aula: Usando Redux no TODO - Persistindo os dados
+Módulo: React Router
+	Aula: Introdução - React Router
+	Aula: Criando as Rotas
+	Aula: Switch
+	Aula: Lidando com Rotas que não existem
+	Aula: Outra forma do Route
+	Aula: Link 
+	Aula: Use Match
+	Aula: Ajuste no Match
+	Aula: Use Params
+	Aula: Criando seu próprio Hook
+	Aula: Use Location
+Módulo: Rotas protegidas
+	Aula: Gerenciando autorização
+	Aula: Componente de Rota Privada
+	Aula: Melhorando o comportamento
+Módulo: React com Node
+	Aula: Criando um projeto com React + node
+	Aula: Alterando nosso App React
+	Aula: Criando um proxy para o ambiente de desenvolvimento
+	Aula: Instalando o concurrently
+	Aula: Automatizando o build com o post install Post install
+Módulo: Electron
+	Aula: Introdução - Electron
+	Aula: Instalando o Electron
+	Aula: Criando uma Janela
+	Aula: Inserindo elementos na Janela
+	Aula: Mudando o comportamento de acordo com o ambiente
+	Aula: Fazendo ajustes que você não percebeu que precisavam ser feitos
+	Aula: Inserindo o icone na sua janela
+	Aula: Usando node no front
+	Aula: Trocando mensagens entre Back e Front
+	Aula: Menu pré configurado
+	Aula: Menu personalizado
+	Aula: Atalho de menu
+	Aula: Atalho global
+Módulo: Electron Gravador
+	Aula: Introdução - Gravador (Electron)
+	Aula: Criando o Projeto 
+	Aula: Criando a estrutura da janela principal
+	Aula: Criando o estilo dá aplicação
+	Aula: Selecionando o microfone
+	Aula: Capturando o Audio
+	Aula: Atualizando o Display
+	Aula: Salvando os audios
+	Aula: Criando a janela de preferências
+	Aula: Modificando o endereço de destino
+	Aula: Salvando as configurações
+	Aula: Fazendo o build da aplicação
